@@ -14,7 +14,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>120x120-fanmento-app-icon</string>
+				<string>120x120-cardmento-app-icon</string>
 				<string>57x57_app_icon.png</string>
 				<string>114x114_app_icon.png</string>
 				<string>Default.png</string>

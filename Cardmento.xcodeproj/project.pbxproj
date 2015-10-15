@@ -446,6 +446,7 @@
 		C14DB4E0162B22700090958E /* FNMWalgreensAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DB4DF162B22700090958E /* FNMWalgreensAPITest.m */; };
 		C15AC54615FBC8A70054A322 /* UITabBarController+FNMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15AC54515FBC8A70054A322 /* UITabBarController+FNMTabBarController.m */; };
 		C15AC54715FBC8A70054A322 /* UITabBarController+FNMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15AC54515FBC8A70054A322 /* UITabBarController+FNMTabBarController.m */; };
+		C15DDEAD1BCF3171004EA499 /* 120x120-cardmento-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C15DDEAC1BCF3171004EA499 /* 120x120-cardmento-app-icon.png */; settings = {ASSET_TAGS = (); }; };
 		C17661DC16152E0B00E307A9 /* JPImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B11661613A29800E9A72E /* JPImagePickerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C17661DD16152E0B00E307A9 /* JPImagePickerDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B11681613A29800E9A72E /* JPImagePickerDetailController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C17661DE16152E0B00E307A9 /* JPImagePickerOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B116B1613A29800E9A72E /* JPImagePickerOverviewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -1076,6 +1077,7 @@
 		C14DB4DF162B22700090958E /* FNMWalgreensAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNMWalgreensAPITest.m; sourceTree = "<group>"; };
 		C15AC54415FBC8A70054A322 /* UITabBarController+FNMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+FNMTabBarController.h"; sourceTree = "<group>"; };
 		C15AC54515FBC8A70054A322 /* UITabBarController+FNMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+FNMTabBarController.m"; sourceTree = "<group>"; };
+		C15DDEAC1BCF3171004EA499 /* 120x120-cardmento-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "120x120-cardmento-app-icon.png"; sourceTree = "<group>"; };
 		C183CAA21B486B9100371E5E /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		C183CAA31B486B9100371E5E /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		C183CAA41B486B9100371E5E /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
@@ -2102,6 +2104,7 @@
 		C140162215EE6543009D375D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C15DDEAC1BCF3171004EA499 /* 120x120-cardmento-app-icon.png */,
 				3D8765AB17F4CDFF00BA3B22 /* 120x120-fanmento-app-icon.png */,
 				C110FD8915EDB1FD004C7E46 /* 114x114_app_icon.png */,
 				C110FD8715EDB1F8004C7E46 /* 57x57_app_icon.png */,
@@ -2425,6 +2428,7 @@
 				372E7BAC160B7ABD00B63A6E /* DETweetSendButtonLandscape.png in Resources */,
 				372E7BAD160B7ABD00B63A6E /* DETweetSendButtonLandscape@2x.png in Resources */,
 				372E7BAE160B7ABD00B63A6E /* DETweetSendButtonPortrait.png in Resources */,
+				C15DDEAD1BCF3171004EA499 /* 120x120-cardmento-app-icon.png in Resources */,
 				372E7BAF160B7ABD00B63A6E /* DETweetSendButtonPortrait@2x.png in Resources */,
 				372E7BB0160B7ABD00B63A6E /* DETweetURLAttachment.png in Resources */,
 				372E7BB1160B7ABD00B63A6E /* DETweetURLAttachment@2x.png in Resources */,
