@@ -32,10 +32,10 @@ NSInteger const fnmLeftPremiumCorner = 4321;
 
 static NSString *categoryNames[6] = {
     nil,
-    @"Sports",
-    @"Entertainment",
-    @"Music",
-    @"Lifestyle",
+    @"Holidays",
+    @"Invitations",
+    @"Thank You",
+    @"Announcements",
     @"Miscellaneous"
 };
 
@@ -874,8 +874,8 @@ typedef enum {
 
     UIButton *sportsButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [sportsButton setFrame:CGRectMake(0, 32, 320, 58)];
-    [sportsButton setImage:[UIImage imageNamed:@"category_SPORTS_button_up"] forState:UIControlStateNormal];
-    [sportsButton setImage:[UIImage imageNamed:@"category_SPORTS_button_down"] forState:UIControlStateHighlighted];
+    [sportsButton setImage:[UIImage imageNamed:@"category_HOLIDAY_button_up"] forState:UIControlStateNormal];
+    [sportsButton setImage:[UIImage imageNamed:@"category_HOLIDAY_button_down"] forState:UIControlStateHighlighted];
     [sportsButton setTag:fnmSportsTemplates];
     [sportsButton addTarget:self action:@selector(categorySelected:) forControlEvents:UIControlEventTouchUpInside];
     [sportsButton setHidden:YES];
@@ -883,8 +883,8 @@ typedef enum {
 
     UIButton *entertainmentButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [entertainmentButton setFrame:CGRectMake(0, 96, 320, 58)];
-    [entertainmentButton setImage:[UIImage imageNamed:@"category_ENTERTAINMENT_button_up"] forState:UIControlStateNormal];
-    [entertainmentButton setImage:[UIImage imageNamed:@"category_ENTERTAINMENT_button_down"] forState:UIControlStateHighlighted];
+    [entertainmentButton setImage:[UIImage imageNamed:@"category_INVITATIONS_button_up"] forState:UIControlStateNormal];
+    [entertainmentButton setImage:[UIImage imageNamed:@"category_INVITATIONS_button_down"] forState:UIControlStateHighlighted];
     [entertainmentButton setTag:fnmEntertainmentTemplates];
     [entertainmentButton setHidden:YES];
     [entertainmentButton addTarget:self action:@selector(categorySelected:) forControlEvents:UIControlEventTouchUpInside];
@@ -892,8 +892,8 @@ typedef enum {
 
     UIButton *musicButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [musicButton setFrame:CGRectMake(0, 160, 320, 58)];
-    [musicButton setImage:[UIImage imageNamed:@"category_MUSIC_button_up"] forState:UIControlStateNormal];
-    [musicButton setImage:[UIImage imageNamed:@"category_MUSIC_button_down"] forState:UIControlStateHighlighted];
+    [musicButton setImage:[UIImage imageNamed:@"category_THANKYOU_button_up"] forState:UIControlStateNormal];
+    [musicButton setImage:[UIImage imageNamed:@"category_THANKYOU_button_down"] forState:UIControlStateHighlighted];
     [musicButton setTag:fnmMusicTemplates];
     [musicButton setHidden:YES];
     [musicButton addTarget:self action:@selector(categorySelected:) forControlEvents:UIControlEventTouchUpInside];
@@ -901,8 +901,8 @@ typedef enum {
 
     UIButton *lifestyleButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [lifestyleButton setFrame:CGRectMake(0, 224, 320, 58)];
-    [lifestyleButton setImage:[UIImage imageNamed:@"category_LIFESTYLE_button_up"] forState:UIControlStateNormal];
-    [lifestyleButton setImage:[UIImage imageNamed:@"category_LIFESTYLE_button_down"] forState:UIControlStateHighlighted];
+    [lifestyleButton setImage:[UIImage imageNamed:@"category_ANNOUNCEMENTS_button_up"] forState:UIControlStateNormal];
+    [lifestyleButton setImage:[UIImage imageNamed:@"category_ANNOUNCEMENTS_button_down"] forState:UIControlStateHighlighted];
     [lifestyleButton setTag:fnmLifestyleTemplates];
     [lifestyleButton setHidden:YES];
     [lifestyleButton addTarget:self action:@selector(categorySelected:) forControlEvents:UIControlEventTouchUpInside];

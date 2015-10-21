@@ -12,6 +12,14 @@
 #import "FNMCustomGalleryCell.h"
 #import "ODRefreshControl.h"
 
+/*
+ Sports = Holidays
+ Entertainment = Invitations
+ Music = Thank You
+ Lifestyle = Announcements
+ Misc = Misc
+ */
+
 typedef enum {
     fnmNullTag,
     fnmSportsTemplates,
